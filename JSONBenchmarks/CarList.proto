@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+message CarList {
+    repeated Car cars = 1;
+}
+
+message Car {
+    message Location {
+        float lat = 1;
+        int32 course = 2;
+        float lon = 3;
+    }
+    
+    message Telematics {
+        int32 fuel_distance = 1;
+        int32 fuel_level = 2;
+    }
+    
+    string number = 1;
+    repeated int32 patches = 2;
+    Location location = 3;
+    repeated int32 filters = 4;
+    repeated int32 sf = 5;
+    string model_id = 6;
+    Telematics telematics = 7;
+}

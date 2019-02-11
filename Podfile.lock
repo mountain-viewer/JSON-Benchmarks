@@ -1,0 +1,44 @@
+PODS:
+  - HandyJSON (4.2.1)
+  - JASON (3.1)
+  - Marshal (1.2.7)
+  - ObjectMapper (3.4.2)
+  - PMJSON (3.1.2)
+  - SwiftProtobuf (1.3.1)
+  - SwiftyJSON (4.2.0)
+  - Tailor (3.0.0)
+
+DEPENDENCIES:
+  - HandyJSON (~> 4.2.0)
+  - JASON (~> 3.0)
+  - Marshal (~> 1.2.4)
+  - ObjectMapper (~> 3.4)
+  - PMJSON (~> 3.0)
+  - SwiftProtobuf (~> 1.0)
+  - SwiftyJSON (~> 4.0)
+  - Tailor
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - HandyJSON
+    - JASON
+    - Marshal
+    - ObjectMapper
+    - PMJSON
+    - SwiftProtobuf
+    - SwiftyJSON
+    - Tailor
+
+SPEC CHECKSUMS:
+  HandyJSON: d0c5fc80204f29056d59d3e5c4587fa0b16b60a8
+  JASON: c1204b01c9979eef35b6948ca939aac5e7bef081
+  Marshal: ef480864a6af10a63f67be7e55bb5d8fe67a16d9
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  PMJSON: 32f664a68f6d9d99102976773cc88b88c567a74e
+  SwiftProtobuf: 84cd6b8f4fd2fc3d9fbd80a0aaf2e957d52824ec
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  Tailor: 4fb574e8815d076abbf2bd7ffdbf4b14103fe17c
+
+PODFILE CHECKSUM: 46bc93f5ba5a903ccd4daf83c153ea03e52846ee
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module Pods_JSONBenchmarksUITests {
+  umbrella header "Pods-JSONBenchmarksUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
